@@ -35,11 +35,11 @@ const CharacterPage: React.FC<CharacterCardProps> = ({
   const imageUrl = (() => {
     switch (true) {
       case lowerName.includes('hermione'):
-        return "/public/images/Asel.png";
+        return "/images/Asel.png";
       case lowerName.includes('harry potter'):
-        return "/public/images/Armansu.png";
+        return "/images/ArmanSu.png";
       case lowerName.includes('ron'):
-        return "/public/images/igor.jpg";
+        return "/images/igor.jpg";
       default:
         return image || 'https://placehold.co/200x300/png?text=' + name.charAt(0);
     }
