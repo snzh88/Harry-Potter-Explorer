@@ -32,33 +32,9 @@ const CharacterPage: React.FC<CharacterCardProps> = ({
 
   const lowerName:string = name.toLowerCase();
 
-  const imageUrl = (() => {
-    switch (true) {
-      case lowerName.includes('hermione'):
-        return "/public/images/asel.png";
-      case lowerName.includes('harry potter'):
-        return "https://finalist.saby.kz/media/user/22/5bc59b195b2a6.jpg";
-      case lowerName.includes('ron'):
-        return "/public/images/igor.jpg";
-      default:
-        return image || 'https://placehold.co/200x300/png?text=' + name.charAt(0);
-    }
-  })();
+  const imageUrl =  image || 'https://placehold.co/200x300/png?text=' + name.charAt(0);
   
-
-  const patronusText = (() => {
-    switch (true) {
-      case lowerName.includes('hermione'):
-        return 'chaban';
-      case lowerName.includes('harry potter'):
-        return 'nFactorial';
-      case lowerName.includes('ron'):
-        return 'Math';
-      default:
-        return patronus || 'Unknown';
-    }
-  }
-  )();
+  const patronusText = patronus || 'Unknown';
 
   return (
     <div className=" w-[400px] flex items-center justify-center bg-gray-800 shadow-md overflow-hidden  transition-shadow">
