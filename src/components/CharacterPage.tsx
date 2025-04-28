@@ -37,7 +37,7 @@ const CharacterPage: React.FC<CharacterCardProps> = ({
       case lowerName.includes('hermione'):
         return "/public/images/asel.png";
       case lowerName.includes('harry potter'):
-        return "/public/images/armansu.png";
+        return "https://finalist.saby.kz/media/user/22/5bc59b195b2a6.jpg";
       case lowerName.includes('ron'):
         return "/public/images/igor.jpg";
       default:
