@@ -8,18 +8,18 @@ type Video = {
 
 const Memes = () => {
     const videos: Video[] = [
-        {src: "/meme-videos/draco1.mp4", link: "https://vm.tiktok.com/ZMBcLkRox/"},
-        {src: "/meme-videos/draco2.mp4", link: 'https://vm.tiktok.com/ZMBcLh6Ly/'},
-        {src: "/meme-videos/voland1.mp4", link: 'https://vm.tiktok.com/ZMBc8sj3T/'},
-        {src: "/meme-videos/harry2.mp4", link: 'https://vm.tiktok.com/ZMBc8EpnY/'},
-        {src: "/meme-videos/harry3.mp4", link: 'https://vm.tiktok.com/ZMBcLN4Bg/'},
-        {src: "/meme-videos/snape1.mp4", link: 'https://vm.tiktok.com/ZMBcLu6GH/'},
-        {src: "/meme-videos/harry5.mp4", link: 'https://vm.tiktok.com/ZMBcFyFaj/'},
-        {src: "/meme-videos/harry6.mp4", link: 'https://vm.tiktok.com/ZMBcFFRmy/'},
-        {src: "/meme-videos/harry4.mp4", link: 'https://vm.tiktok.com/ZMBcFPEds/'},
-        {src: "/meme-videos/snape2.mp4", link: 'https://vm.tiktok.com/ZMBcFNpMt/'},
-        {src: "/meme-videos/harry1.mp4", link: 'https://vm.tiktok.com/ZMBc83oW1/'},
-        {src: "/meme-videos/voland2.mp4", link: 'https://vm.tiktok.com/ZMBcLY5xt/'},
+        {src: "/images/meme-videos/draco1.mp4", link: "https://vm.tiktok.com/ZMBcLkRox/"},
+        {src: "/images/meme-videos/draco2.mp4", link: 'https://vm.tiktok.com/ZMBcLh6Ly/'},
+        {src: "/images/meme-videos/voland1.mp4", link: 'https://vm.tiktok.com/ZMBc8sj3T/'},
+        {src: "/images/meme-videos/harry2.mp4", link: 'https://vm.tiktok.com/ZMBc8EpnY/'},
+        {src: "/images/meme-videos/harry3.mp4", link: 'https://vm.tiktok.com/ZMBcLN4Bg/'},
+        {src: "/images/meme-videos/snape1.mp4", link: 'https://vm.tiktok.com/ZMBcLu6GH/'},
+        {src: "/images/meme-videos/harry5.mp4", link: 'https://vm.tiktok.com/ZMBcFyFaj/'},
+        {src: "/images/meme-videos/harry6.mp4", link: 'https://vm.tiktok.com/ZMBcFFRmy/'},
+        {src: "/images/meme-videos/harry4.mp4", link: 'https://vm.tiktok.com/ZMBcFPEds/'},
+        {src: "/images/meme-videos/snape2.mp4", link: 'https://vm.tiktok.com/ZMBcFNpMt/'},
+        {src: "/images/meme-videos/harry1.mp4", link: 'https://vm.tiktok.com/ZMBc83oW1/'},
+        {src: "/images/meme-videos/voland2.mp4", link: 'https://vm.tiktok.com/ZMBcLY5xt/'},
     ];
     
     const links = [

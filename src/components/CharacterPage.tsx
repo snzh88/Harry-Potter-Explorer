@@ -34,7 +34,7 @@ const CharacterPage: React.FC<CharacterCardProps> = ({
 
   const imageUrl = (() => {
     switch (true) {
-      case lowerName.includes('hermione'):
+      case name.includes('Hermione'):
         return "/images/Asel.png";
       case lowerName.includes('harry potter'):
         return "/images/ArmanSu.png";
