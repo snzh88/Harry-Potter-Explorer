@@ -1,6 +1,5 @@
 # nFactorial 2025, task : Harry Potter Explorer
-## Link:
-[text](https://harry-potter-explorer-one.vercel.app/)
+## [Link](https://harry-potter-explorer-one.vercel.app/)
 
 ## Описание:
 Веб-приложение для изучения мира Гарри Поттера: персонажи, факультеты, а также МЕМЫ которые всем нравятся :). В проекте использован внешний API и React-интерфейс.
