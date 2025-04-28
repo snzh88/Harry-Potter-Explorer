@@ -8,20 +8,24 @@ type Video = {
 
 const Memes = () => {
     const videos: Video[] = [
-        {src: "/images/meme-videos/draco1.mp4", link: "https://vm.tiktok.com/ZMBcLkRox/"},
-        {src: "/images/meme-videos/draco2.mp4", link: 'https://vm.tiktok.com/ZMBcLh6Ly/'},
-        {src: "/images/meme-videos/voland1.mp4", link: 'https://vm.tiktok.com/ZMBc8sj3T/'},
-        {src: "/images/meme-videos/harry2.mp4", link: 'https://vm.tiktok.com/ZMBc8EpnY/'},
-        {src: "/images/meme-videos/harry3.mp4", link: 'https://vm.tiktok.com/ZMBcLN4Bg/'},
-        {src: "/images/meme-videos/snape1.mp4", link: 'https://vm.tiktok.com/ZMBcLu6GH/'},
-        {src: "/images/meme-videos/harry5.mp4", link: 'https://vm.tiktok.com/ZMBcFyFaj/'},
-        {src: "/images/meme-videos/harry6.mp4", link: 'https://vm.tiktok.com/ZMBcFFRmy/'},
-        {src: "/images/meme-videos/harry4.mp4", link: 'https://vm.tiktok.com/ZMBcFPEds/'},
-        {src: "/images/meme-videos/snape2.mp4", link: 'https://vm.tiktok.com/ZMBcFNpMt/'},
-        {src: "/images/meme-videos/harry1.mp4", link: 'https://vm.tiktok.com/ZMBc83oW1/'},
-        {src: "/images/meme-videos/voland2.mp4", link: 'https://vm.tiktok.com/ZMBcLY5xt/'},
+        {src: "/public/images/meme-videos/draco1.mp4" , link: "https://vm.tiktok.com/ZMBcLkRox/" },
+        {src: "/public/images/meme-videos/draco2.mp4", link: 'https://vm.tiktok.com/ZMBcLh6Ly/'},
+        {src: "/public/images/meme-videos/voland1.mp4", link: 'https://vm.tiktok.com/ZMBc8sj3T/'},
+        {src: "/public/images/meme-videos/harry2.mp4", link: 'https://vm.tiktok.com/ZMBc8EpnY/'},
+        {src: "/public/images/meme-videos/harry3.mp4", link: 'https://vm.tiktok.com/ZMBcLN4Bg/'},
+        {src: "/public/images/meme-videos/snape1.mp4", link: 'https://vm.tiktok.com/ZMBcLu6GH/'},
+        {src: "/public/images/meme-videos/harry5.mp4", link: 'https://vm.tiktok.com/ZMBcFyFaj/'},
+        {src: "/public/images/meme-videos/harry6.mp4", link: 'https://vm.tiktok.com/ZMBcFFRmy/'},
+        {src: "/public/images/meme-videos/harry4.mp4", link: 'https://vm.tiktok.com/ZMBcFPEds/'},
+        {src: "/public/images/meme-videos/snape2.mp4", link: 'https://vm.tiktok.com/ZMBcFNpMt/'},
+        {src: "/public/images/meme-videos/harry1.mp4", link: 'https://vm.tiktok.com/ZMBc83oW1/'},
+        {src: "/public/images/meme-videos/voland2.mp4", link: 'https://vm.tiktok.com/ZMBcLY5xt/'},
+        /*
+        {src: '', link: ''},
+
+        "../../public/meme-videos/draco2.mp4",
+        */
     ];
-    
     const links = [
 
     ];
@@ -49,7 +53,7 @@ const Memes = () => {
                         Ваш браузер не поддерживает видео.
                     </video>
                     <p className="mt-2 text-center text-white">{index + 1}. Original video: 
-                        <a className='text-white hover:text-blue-500' target='_blank' href={video.link}> ~link</a>
+                        <a className='text-whitehover:text-blue-500' target='_blank' href={video.link}> ~link</a>
                     </p>
                     </div>
                 ))}
